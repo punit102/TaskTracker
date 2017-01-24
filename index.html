@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+
+  <body>
+    <h1>Trach Your Tasks!!!!</h1>
+   
+    <div>
+    <button onclick="handler.displayTodo()">Display Todo</button>
+    <button onclick="handler.toggleAll()">Toggle all</button>
+    </div>
+    
+    
+    <div>
+      <button onclick="handler.addTodo()">Add</button>
+      <input id="todoText" type="text">
+    </div>
+
+  <div>
+    <button onclick="handler.changeTodo()">Change Todo</button>
+    <input type="number" id="positionIndex">
+    <input type="text" id="modifyValue">
+  </div>  
+  
+  
+    <div>
+    <button onclick="handler.deleteTodo()">Delete Todo</button>
+    <input type="number" id="deletePosition">
+  </div> 
+  
+  
+  
+    <div>
+    <button onclick="handler.toggleTodo()">Toggle Completed</button>
+    <input type="number" id="togglePosition">
+  </div> 
+    
+    <ul>
+      
+    </ul>  
+    
+    
+    
+     <script src="script.js"></script>
+  </body>
+
+</html>
